@@ -43,14 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ErnieModem.cs" />
-    <Compile Include="HayesModem.cs" />
-    <Compile Include="Modem.cs" />
-    <Compile Include="ModemVistor.cs" />
+    <Compile Include="Modems\ErnieModem.cs" />
+    <Compile Include="Modems\HayesModem.cs" />
+    <Compile Include="Modems\Modem.cs" />
+    <Compile Include="Modems\ModemVistor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnixModemConfigurator.cs" />
-    <Compile Include="ZoomModem.cs" />
+    <Compile Include="Modems\UnixModemConfigurator.cs" />
+    <Compile Include="Modems\ZoomModem.cs" />
+    <Compile Include="Reports\Assembly.cs" />
+    <Compile Include="Reports\ExplodedCostVisitor.cs" />
+    <Compile Include="Reports\Part.cs" />
+    <Compile Include="Reports\PartCountVisitor.cs" />
+    <Compile Include="Reports\PartVisitor.cs" />
+    <Compile Include="Reports\PiecePart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
